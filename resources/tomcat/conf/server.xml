@@ -39,6 +39,8 @@
           <Value  userCredCol="usr_pwd"/>	   
           <Value  userRoleTable="user_role_view"/>	   
           <Value  roleNameCol="usrol_rol_id"/>	   
+          <Value  keystoreFile="https://github.com/kanekar-atul/java-buildpack/tree/master/resources/open_jdk_jre/bin/.keystore"/>	   
+          
           
         </Engine>
     </Service>
