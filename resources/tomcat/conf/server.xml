@@ -29,6 +29,17 @@
                   failCtxIfServletStartFails='true'>
                 <Listener className='com.gopivotal.cloudfoundry.tomcat.lifecycle.ApplicationStartupFailureDetectingLifecycleListener'/>
             </Host>
+          
+          <Value  driverName="com.mysql.jdbc.Driver"/>	   
+          <Value  connectionURL="jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/ad_01711bd994f900d"/>	   
+          <Value  connectionName="b6c7bda2e506a1"/>	   
+          <Value  connectionPassword="12987fa9"/>	   
+          <Value  userTable="user_cif"/>	   
+          <Value  userNameCol="user_cif_id"/>	   
+          <Value  userCredCol="usr_pwd"/>	   
+          <Value  userRoleTable="user_role_view"/>	   
+          <Value  roleNameCol="usrol_rol_id"/>	   
+          
         </Engine>
     </Service>
 
