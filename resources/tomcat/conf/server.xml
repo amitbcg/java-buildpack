@@ -42,7 +42,7 @@
           <Value  userRoleTable="user_role_view"/>	   
           <Value  roleNameCol="usrol_rol_id"/>	   
           <Value  keystoreFile="https://github.com/kanekar-atul/java-buildpack/tree/cif-free-db/resources/open_jdk_jre/bin/.keystore"/>	   
-          <Value  keystorePass="changeit"/>	   
+          <Value  keystorePass="admin123"/>	   
           
           
         </Engine>
