@@ -33,16 +33,16 @@
             </Host>
           
           <Value  driverName="com.mysql.jdbc.Driver"/>	   
-          <Value  connectionURL="jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/ad_62c784267778835"/>	   
-          <Value  connectionName="b798831c6fa147"/>	   
-          <Value  connectionPassword="8bc494e8"/>	   
+          <Value  connectionURL="jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/ad_01711bd994f900d"/>	   
+          <Value  connectionName="b6c7bda2e506a1"/>	   
+          <Value  connectionPassword="12987fa9"/>	   
           <Value  userTable="user_cif"/>	   
           <Value  userNameCol="user_cif_id"/>	   
           <Value  userCredCol="usr_pwd"/>	   
           <Value  userRoleTable="user_role_view"/>	   
           <Value  roleNameCol="usrol_rol_id"/>	   
-          <Value  keystoreFile="https://github.com/kanekar-atul/java-buildpack/tree/master/resources/open_jdk_jre/bin/.keystore"/>	   
-          <Value  keystorePass="admin123"/>	   
+          <Value  keystoreFile="https://github.com/kanekar-atul/java-buildpack/tree/cif-free-db/resources/open_jdk_jre/bin/.keystore"/>	   
+          <Value  keystorePass="changeit"/>	   
           
           
         </Engine>
