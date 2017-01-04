@@ -20,7 +20,7 @@
     <Service name='Catalina'>
         <Connector port='${http.port}' bindOnInit='false' connectionTimeout='20000'/>
 
-      <Connector SSLEnabled="true" acceptCount="100" clientAuth="false" disableUploadTimeout="true" enableLookups="false" maxThreads="25" port="8443" keystoreFile="https://github.com/kanekar-atul/java-buildpack/tree/master/resources/open_jdk_jre/bin/.keystore" keystorePass="admin123" protocol="org.apache.coyote.http11.Http11NioProtocol" scheme="https" secure="true" sslProtocol="TLS" />
+      <Connector SSLEnabled="true" acceptCount="100" clientAuth="false" disableUploadTimeout="true" enableLookups="false" maxThreads="25" port="8443" keystoreFile="https://github.com/amitbcg/java-buildpack/tree/master/resources/open_jdk_jre/bin/.keystore" keystorePass="admin123" protocol="org.apache.coyote.http11.Http11NioProtocol" scheme="https" secure="true" sslProtocol="TLS" />
       
         <Engine defaultHost='localhost' name='Catalina'>
             <Valve className='org.apache.catalina.valves.RemoteIpValve' protocolHeader='x-forwarded-proto'/>
@@ -41,7 +41,7 @@
           <Value  userCredCol="usr_pwd"/>	   
           <Value  userRoleTable="user_role_view"/>	   
           <Value  roleNameCol="usrol_rol_id"/>	   
-          <Value  keystoreFile="https://github.com/kanekar-atul/java-buildpack/tree/master/resources/open_jdk_jre/bin/.keystore"/>	   
+          <Value  keystoreFile="https://github.com/amitbcg/java-buildpack/tree/master/resources/open_jdk_jre/bin/.keystore"/>	   
           <Value  keystorePass="admin123"/>	   
           
           
